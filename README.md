@@ -28,7 +28,7 @@ This project demonstrates full CRUD operations (Create, Read, Update, Delete) fo
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/PriorAuthPrototype.git
+git clone https://github.com/abhinavsrinivasan/PriorAuthPrototype.git
 cd PriorAuthPrototype
 ```
 ## Restore dependencies:
