@@ -5,7 +5,7 @@ This project demonstrates full CRUD operations (Create, Read, Update, Delete) fo
 
 ---
 
-## 📚 Features
+## Features
 - Create new Prior Authorization requests (POST)
 - Retrieve a specific Prior Authorization by ID (GET)
 - Update an existing Prior Authorization (PUT)
@@ -15,7 +15,7 @@ This project demonstrates full CRUD operations (Create, Read, Update, Delete) fo
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - C# (.NET 8)
 - Entity Framework Core (SQLite)
 - Swagger UI for API testing
@@ -24,13 +24,14 @@ This project demonstrates full CRUD operations (Create, Read, Update, Delete) fo
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Clone the repository:
 ```bash
 git clone https://github.com/your-username/PriorAuthPrototype.git
 cd PriorAuthPrototype
 ```
+## Restore dependencies:
 ```bash
 dotnet restore
 ```
