@@ -14,18 +14,9 @@ public class PriorAuthorizationService : IPriorAuthorizationService
     }
 
     //GET ALL
-    public async Task<List<PriorAuthorizationRequestDto>> GetAllRequestsAsync()
+    public async Task<List<PriorAuthorizationRequest>> GetAllRequestsAsync()
     {
-        return await _context.PriorAuthorizationRequests
-            .Select(r => new PriorAuthorizationRequestDto
-            {
-                Id = r.Id,
-                PatientName = r.PatientName,
-                ProcedureCode = r.ProcedureCode,
-                IsUrgent = r.IsUrgent,
-                Status = r.Status
-            })
-            .ToListAsync();
+        return await _context.PriorAuthorizationRequests.ToListAsync();
     }
 
     // GET BY ID
@@ -61,18 +52,16 @@ public class PriorAuthorizationService : IPriorAuthorizationService
     }
 
     // UPDATE (PUT)
-    public async Task<PriorAuthorizationRequestDto?> UpdateRequestAsync(int id, PriorAuthorizationRequest updatedRequest)
+    public async Task<PriorAuthorizationRequest?> UpdateRequestAsync(int id, PriorAuthorizationRequest updatedRequest)
     {
         var existing = await _context.PriorAuthorizationRequests.FindAsync(id);
         if (existing == null) return null;
 
-        //real-world case (must appeal)
         if (existing.Status == "Denied")
         {
-            return null; 
+            return null;
         }
 
-        
         existing.PatientName = updatedRequest.PatientName;
         existing.ProviderName = updatedRequest.ProviderName;
         existing.RequestDate = updatedRequest.RequestDate;
@@ -82,15 +71,9 @@ public class PriorAuthorizationService : IPriorAuthorizationService
 
         await _context.SaveChangesAsync();
 
-        return new PriorAuthorizationRequestDto
-        {
-            Id = existing.Id,
-            PatientName = existing.PatientName,
-            ProcedureCode = existing.ProcedureCode,
-            IsUrgent = existing.IsUrgent,
-            Status = existing.Status
-        };
+        return existing;
     }
+
 
     // DELETE
     public async Task<bool> DeleteRequestAsync(int id)

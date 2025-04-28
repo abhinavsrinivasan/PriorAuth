@@ -1,0 +1,9 @@
+bin/
+obj/
+*.db
+*.pdb
+*.dll
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

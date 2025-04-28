@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using PriorAuthPrototype.Models;
-using PriorAuthPrototype.Dtos; // Add this!!
+using PriorAuthPrototype.Dtos;
 using PriorAuthPrototype.Data;
+
 
 namespace PriorAuthPrototype.Controllers
 {
@@ -18,7 +19,7 @@ namespace PriorAuthPrototype.Controllers
 
         // GET ALL
         [HttpGet]
-        public async Task<ActionResult<List<PriorAuthorizationRequestDto>>> GetAllRequests()
+        public async Task<ActionResult<List<PriorAuthorizationRequest>>> GetAllRequests()
         {
             var requests = await _service.GetAllRequestsAsync();
             return Ok(requests);
