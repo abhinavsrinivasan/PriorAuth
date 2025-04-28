@@ -26,7 +26,25 @@ This project demonstrates full CRUD operations (Create, Read, Update, Delete) fo
 
 ## 🚀 How to Run
 
-1. Clone the repository:
-
+### Clone the repository:
 ```bash
 git clone https://github.com/your-username/PriorAuthPrototype.git
+cd PriorAuthPrototype
+```
+```bash
+dotnet restore
+```
+## Apply Entity Framework migrations and create the database:
+
+```bash
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
+## Run the application:
+```bash
+dotnet run
+```
+## Open your browser and navigate to:
+```bash
+https://localhost:5001/swagger
+```
