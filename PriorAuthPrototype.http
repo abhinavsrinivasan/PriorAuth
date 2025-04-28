@@ -1,0 +1,6 @@
+@PriorAuthPrototype_HostAddress = http://localhost:5067
+
+GET {{PriorAuthPrototype_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
