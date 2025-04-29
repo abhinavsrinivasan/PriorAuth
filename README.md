@@ -18,7 +18,7 @@ This project demonstrates full CRUD operations (Create, Read, Update, Delete) fo
 ## Tech Stack
 - C# (.NET 8)
 - Entity Framework Core (SQLite)
-- Swagger UI for API testing
+- Postman for API testing
 - REST API principles
 - Layered Architecture: Controller → Service → Repository (DbContext)
 
