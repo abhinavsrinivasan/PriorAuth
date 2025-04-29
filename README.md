@@ -1,4 +1,4 @@
-# PriorAuthPrototype
+# PriorAuth
 
 A C#/.NET 8 Web API project that simulates Prior Authorization workflows in healthcare.  
 This project demonstrates full CRUD operations (Create, Read, Update, Delete) for managing prior auth requests.
