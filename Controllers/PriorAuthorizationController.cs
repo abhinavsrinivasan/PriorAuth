@@ -17,7 +17,7 @@ namespace PriorAuthPrototype.Controllers
             _service = service;
         }
 
-        // GET ALL
+        //GET ALL
         [HttpGet]
         public async Task<ActionResult<List<PriorAuthorizationRequest>>> GetAllRequests()
         {
@@ -25,7 +25,7 @@ namespace PriorAuthPrototype.Controllers
             return Ok(requests);
         }
 
-        // GET BY ID
+        //GET BY ID
         [HttpGet("{id}")]
         public async Task<ActionResult<PriorAuthorizationRequestDto>> GetRequestById(int id)
         {
@@ -34,7 +34,7 @@ namespace PriorAuthPrototype.Controllers
             return Ok(request);
         }
 
-        // CREATE (POST)
+        //CREATE (POST)
         [HttpPost]
         public async Task<ActionResult<PriorAuthorizationRequestDto>> CreateRequest(PriorAuthorizationRequest request)
         {
@@ -42,7 +42,7 @@ namespace PriorAuthPrototype.Controllers
             return CreatedAtAction(nameof(GetRequestById), new { id = createdRequest.Id }, createdRequest);
         }
 
-        // UPDATE (PUT)
+        //UPDATE (PUT)
         [HttpPut("{id}")]
         public async Task<ActionResult<PriorAuthorizationRequestDto>> UpdateRequest(int id, PriorAuthorizationRequest updatedRequest)
         {
@@ -51,7 +51,7 @@ namespace PriorAuthPrototype.Controllers
             return Ok(updated);
         }
 
-        // DELETE
+        //DELETE
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteRequest(int id)
         {
