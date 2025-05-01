@@ -39,6 +39,7 @@ public class PriorAuthorizationServiceTests
         var request = result.First();
 
         Assert.NotNull(request.PatientName);
+        Assert.NotNull(request.ProviderName);
         Assert.NotNull(request.ProcedureCode);
         Assert.NotNull(request.Status);
         Assert.True(request.IsUrgent);
