@@ -46,6 +46,7 @@ public class PriorAuthorizationServiceTests
     }
 
 
+    //denied requests cannot be updated
     [Fact]
     public async Task UpdateRequestAsync_AppealDeniedRequest()
     {
