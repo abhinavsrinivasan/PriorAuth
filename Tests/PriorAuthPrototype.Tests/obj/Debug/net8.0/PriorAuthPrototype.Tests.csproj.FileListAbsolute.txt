@@ -156,3 +156,13 @@
 /Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/obj/Debug/net8.0/PriorAuthPrototype.Tests.pdb
 /Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/obj/Debug/net8.0/PriorAuthPrototype.Tests.genruntimeconfig.cache
 /Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/obj/Debug/net8.0/ref/PriorAuthPrototype.Tests.dll
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/obj/Debug/net8.0/PriorAuthPrototype.Tests.sourcelink.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/appsettings.Development.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/appsettings.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/PriorAuthPrototype.deps.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/PriorAuthPrototype.runtimeconfig.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/PriorAuthPrototype.Tests.deps.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/PriorAuthPrototype.Tests.runtimeconfig.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/obj/PriorAuthPrototype.Tests.csproj.nuget.dgspec.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/obj/project.assets.json
+/Users/abhinavsrinivasan/PriorAuthPrototype/Tests/PriorAuthPrototype.Tests/bin/Debug/net8.0/Tests/PriorAuthPrototype.Tests/obj/Debug/net8.0/PriorAuthPrototype.Tests.sourcelink.json

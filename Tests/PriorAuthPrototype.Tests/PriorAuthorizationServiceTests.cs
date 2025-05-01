@@ -15,7 +15,7 @@ public class PriorAuthorizationServiceTests
     }
 
     [Fact]
-    public async Task GetAllRequestsAsync_DTOFields()
+    public async Task GetAllRequestsAsync_ReturnsAllFields()
     {
         //Arrange-Act-Assert
         var context = GetInMemoryDbContext();
@@ -36,13 +36,12 @@ public class PriorAuthorizationServiceTests
         var result = await service.GetAllRequestsAsync();
 
         //Assert
-        var dto = result.First();
+        var request = result.First();
 
-        //by testing these 4, you assume the others are not shown
-        Assert.NotNull(dto.PatientName);
-        Assert.NotNull(dto.ProcedureCode);
-        Assert.NotNull(dto.Status);
-        Assert.True(dto.IsUrgent);
+        Assert.NotNull(request.PatientName);
+        Assert.NotNull(request.ProcedureCode);
+        Assert.NotNull(request.Status);
+        Assert.True(request.IsUrgent);
     }
 
 

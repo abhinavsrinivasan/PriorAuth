@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PriorAuthPrototype.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42d9bcdd27b6b7b6b47d8278234d1026ac8455d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PriorAuthPrototype.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PriorAuthPrototype.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
