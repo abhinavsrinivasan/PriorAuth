@@ -30,7 +30,6 @@ public async Task GetAllRequests_ReturnsOkResultWithModelList()
     mockService.Setup(service => service.GetAllRequestsAsync())
                .ReturnsAsync(modelData);
 
-    // If your controller now takes only the service (no AutoMapper)
     var controller = new PriorAuthorizationController(mockService.Object);
 
     // Act
