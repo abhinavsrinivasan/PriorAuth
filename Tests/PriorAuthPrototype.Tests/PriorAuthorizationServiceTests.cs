@@ -50,7 +50,7 @@ public class PriorAuthorizationServiceTests
     [Fact]
     public async Task UpdateRequestAsync_AppealDeniedRequest()
     {
-    // Arrange
+    //Arrange
     var context = GetInMemoryDbContext();
     var service = new PriorAuthorizationService(context);
 
@@ -76,10 +76,10 @@ public class PriorAuthorizationServiceTests
         IsUrgent = true
     };
 
-    // Act
+    //Act
     var result = await service.UpdateRequestAsync(deniedRequest.Id, updatedRequest);
 
-    // Assert
+    //Assert
     Assert.Null(result); 
 }
 
